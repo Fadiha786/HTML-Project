@@ -1,0 +1,79 @@
+<!doctype html></!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Gallery</title>
+	<link rel="stylesheet" href="styles.css">
+  <style>
+    .image-grid{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+      gap: 15px;
+      padding: 20px;
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="gallery.html">Gallery</a>
+  <div class="dropdown">
+    <a href="#" class="dropdown-btn">Free Code ▼</a>
+    <div class="dropdown-content">
+      <a href="#">HTML</a>
+      <a href="#">CSS</a>
+      <a href="#">JavaScript</a>
+      <a href="#">Android</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <a href="#" class="dropdown-btn">Others ▼</a>
+    <div class="dropdown-content">
+      <a href="contact.html">Contact</a>
+      <a href="about-me.html">About</a>
+    </div>
+  </div>
+  <div class="searchbar">
+  <form action="/search">
+    <input type="text" name="q" placeholder="Search...">
+    <button type="submit">🔍</button>
+    
+  </form>
+  </div>
+
+</div>
+
+<div class="image-grid">
+  <img src="html1.jpeg" height="200px" width="200px">
+  <img src="html2.jpeg" height="200px" width="200px">
+  <img src="html3.jpeg" height="200px" width="200px">
+  <img src="html4.png" height="200px" width="200px">
+  <p style="color: skyblue;">There are smaple images from <b>HTML</b> projects.<b>HTML</b>, or Hypertext Markup Language, is the standard markup language used to create web pages. It structures content for display in web browsers, defining elements like text, images, and links.</p>
+</div>
+
+<div class="image-grid">
+  <img src="css1.png" height="200px" width="200px">
+  <img src="css2.png" height="200px" width="200px">
+  <img src="css3.jpeg" height="200px" width="200px">
+  <img src="css4.jpeg" height="200px" width="200px">
+  <p style="color: skyblue;">There are smaple images from <b>CSS</b> projects.<b>CSS, or Cascading Style Sheets</b>, is a stylesheet language used to describe the presentation of documents written in <b>HTML or XML</b>. It dictates how HTML elements are displayed, controlling aspects like layout, colors, and fonts. </p>
+</div>
+<div class="image-grid">
+  <img src="js1.png" height="200px" width="200px">
+  <img src="js2.png" height="200px" width="200px">
+  <img src="js3.png" height="200px" width="200px">
+  <img src="js4.jpeg" height="200px" width="200px">
+  <p style="color: skyblue;">There are smaple images from <b>Java Script</b> projects.<b>JavaScript</b> is a versatile, lightweight, and interpreted programming language, essential for web development. It's designed to be easy to learn, making it accessible to beginners. JavaScript allows for interactive web pages and dynamic content.</p>
+</div>
+<div class="image-grid">
+  <img src="android1.jpeg" height="200px" width="200px">
+  <img src="android2.jpeg" height="200px" width="200px">
+  <img src="android3.png" height="200px" width="200px">
+  <img src="android4.png" height="200px" width="200px">
+  <p style="color: skyblue;">There are smaple images from <b>Android</b> projects.<b>Android</b> is a mobile operating system based on the Linux kernel, primarily for touchscreen devices. It supports features like Find My Device, which helps users locate devices even when offline. </p>
+</div>
+
+</body>
+</html>
